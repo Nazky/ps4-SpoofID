@@ -21,8 +21,9 @@ int _main(struct thread *td) {
   spoof_target_id(SPOOF);
 
   initSysUtil();
-
-  printf_notification("Spoofing Target ID: 0x%hhx!", SPOOF);
+  char fw_version[6] = {0};
+  get_firmware_string(fw_version);
+  printf_notification("Spoofing Target ID: 0x%hhx!\nPS4 Firmware %s", SPOOF, fw_version);
 
 #ifdef DEBUG_SOCKET
   printf_debug("Closing socket...\n");
