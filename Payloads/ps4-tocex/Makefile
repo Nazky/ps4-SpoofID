@@ -1,4 +1,4 @@
-LIBPS4	:= $(PS4SDK)/libPS4
+LIBPS4	:= ../../libPS4
 
 CC	:= gcc
 OBJCOPY	:= objcopy

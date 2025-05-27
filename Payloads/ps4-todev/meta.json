@@ -5,8 +5,8 @@
   "device": "PlayStation 4",
   "firmware": "",
   "description": {
-    "default": "Spoofs the target ID to match that of a testkit, enables some extra options, etc.",
-    "en": "Spoofs the target ID to match that of a testkit, enables some extra options, etc."
+    "default": "Spoofs the target ID to match that of a devkit, enables some extra options, etc.",
+    "en": "Spoofs the target ID to match that of a devkit, enables some extra options, etc."
   },
   "author": "zecoxao",
   "url": "https://github.com/Scene-Collective/ps4-todex",
